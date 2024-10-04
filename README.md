@@ -14,7 +14,7 @@ it can listen for your commands, engages in real conversations, and responds wit
 - [Installation](#installation)
 - [Usage](#usage)
 ~~- [Configuration](#configuration)~~
-	- [Settings.json](#settings.json)
+	- [Settings.json](#settings.json file)
 ~~- [Audio Settings](#audio-settings)~~
 ~~- [Voice Settings](#voice-settings)~~
 ~~- [Advanced](https://github.com/taldb/BedAssistant/blob/main/functionindex.md)~~
@@ -86,7 +86,7 @@ it can listen for your commands, engages in real conversations, and responds wit
 - **Voice Activation**: Utilize hotword detection to activate the assistant, enabling quick access without manual input.
 
 
-## Settings.json
+## Settings.json file
 ```yaml
 {
     "General": {
@@ -251,7 +251,7 @@ pip install -r requirements.txt
 ```
 ## Usage
 ### to run the assistant:
-- make sure you changed the settings in your [settings.json](#settings.json) file
+- make sure you changed the settings in your [settings.json](#settings.json file) file
 - if you are using led's, you need to run the `LedAnimation_Socket.py` that is located under `"LED/LedAnimation_Socket.py"` with **root privileges (sudo)**, the python script cannot access the raspberry pi gpio pins without root 
 (if you are using a raspberry pi)
 
