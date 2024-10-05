@@ -13,7 +13,7 @@ it can listen for your commands, engages in real conversations, and responds wit
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#settings.json)
+- [Configuration](#settings)
 - [Advanced](https://github.com/taldb/BedAssistant/blob/main/functionindex.md)
 - [Contributing](#contributing)
 - [License](#license)
@@ -83,7 +83,7 @@ it can listen for your commands, engages in real conversations, and responds wit
 - **Voice Activation**: Utilize hotword detection to activate the assistant, enabling quick access without manual input.
 
 
-## Settings.json
+## Settings
 ```yaml
 {
     "General": {
